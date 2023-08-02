@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 18px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  margin-top: 40px;
+  padding: 20px;
+  background: linear-gradient(135deg, green, yellow);
+}
+
+.container > * + * {
+  margin-top: 20px;
+}
+
+.checkbox-container {
+  margin-left: 80px;
+}
+
+.checkbox-container > * {
+  font-size: 1.5rem;
+  height: 24px;
+  width: 24px;
+}
